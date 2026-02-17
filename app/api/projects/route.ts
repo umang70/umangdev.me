@@ -1,0 +1,73 @@
+import { NextResponse } from "next/server"
+
+export async function GET() {
+  const projects = [
+    {
+      id: "AI-Powered Chatbot Platform",
+      title: "chatbot",
+      description: "A full-stack LinkedIn clone (MERN) with user profiles, posts, connections, and search.",
+      tech: ["Express", "Node.js"],
+      tags: ["Web", "Full-Stack", "AI"],
+      demo: "https://www.umangai.tech/",
+      repo: "https://lnkd.in/g6tYXv5E",
+      image: "/images/projects/image.png",
+      imageAlt: "LinkedIn Clone project preview",
+    },
+    // {
+    //   id: "2048",
+    //   title: "2048",
+    //   description: "Clone of the 2048 game using JavaScript DOM; slide numbered tiles to reach 2048.",
+    //   tech: ["JavaScript", "HTML", "CSS"],
+    //   tags: ["Game", "Web"],
+    //   demo: "https://prasanbora.github.io/2048/",
+    //   repo: "https://github.com/PrasanBora/2048",
+    //   image: "/images/projects/2048.jpg",
+    //   imageAlt: "2048 game screenshot",
+    // },
+    // {
+    //   id: "movie-plus",
+    //   title: "Movie_Plus",
+    //   description: "A movie searching web app built with React using the OMDB API for banners and release years.",
+    //   tech: ["React", "OMDB API", "JavaScript"],
+    //   tags: ["Web", "API"],
+    //   demo: "https://prasanbora.github.io/React-Movie_Plus/",
+    //   repo: "https://github.com/PrasanBora/React-Movie_Plus",
+    //   image: "/images/projects/movie_plus.jpg",
+    //   imageAlt: "Movie_Plus app preview",
+    // },
+    // {
+    //   id: "weather-app",
+    //   title: "Weather App",
+    //   description: "Shows weather for any location using OpenWeatherAPI; supports city search and geolocation.",
+    //   tech: ["JavaScript", "OpenWeatherAPI", "HTML", "CSS"],
+    //   tags: ["Web", "API"],
+    //   demo: "https://prasanbora.github.io/Weather_App/",
+    //   repo: "https://github.com/PrasanBora/Weather_App",
+    //   image: "/images/projects/webapp.jpg",
+    //   imageAlt: "Weather app interface",
+    // },
+    // {
+    //   id: "pomodoro-extension",
+    //   title: "Pomodoro Extension",
+    //   description: "Chrome extension with customizable Pomodoro sessions, short and long breaks.",
+    //   tech: ["JavaScript", "Chrome Extension"],
+    //   tags: ["Extension", "Productivity"],
+    //   demo: "",
+    //   repo: "https://github.com/PrasanBora/Pomorodo_extension",
+    //   image: "/images/projects/pomodoro.jpg",
+    //   imageAlt: "Pomodoro extension preview",
+    // },
+    // {
+    //   id: "chatpod",
+    //   title: "Chatpod",
+    //   description: "A real-time chat app using Node.js and Socket.io; group chat with multi-client updates.",
+    //   tech: ["Node.js", "Socket.io", "React", "JavaScript"],
+    //   tags: ["Realtime", "Web"],
+    //   demo: "",
+    //   repo: "https://github.com/PrasanBora/Chatpod",
+    //   image: "/images/projects/chatpod.jpg",
+    //   imageAlt: "Chatpod chat application",
+    // },
+  ]
+  return NextResponse.json(projects)
+}
