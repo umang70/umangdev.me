@@ -182,8 +182,8 @@ I also have a growing interest in Generative AI and enjoy exploring how modern A
     link: "https://www.codechef.com/users/your-username"
   },
   {
-    title: "NASA Space Apps Challenge — Research Project",
-    org: "NASA",
+    title: "Finalist in NASA Space Apps Challenge, Ghaziabad",
+    org: "",
     period: "Aug 2024",
     summary:
       "Developed a research-driven project during NASA Space Apps Challenge using MERN stack and Generative AI. Built a functional prototype within 24–36 hours in a team of 5, applying rapid prototyping, full-stack development, and AI integration to solve real-world problems.",
@@ -203,6 +203,13 @@ I also have a growing interest in Generative AI and enjoy exploring how modern A
       "Developed 'Sukkon', a mental health-focused application aimed at providing support and wellness tracking. Gained hands-on experience in rapid prototyping, teamwork, and problem-solving during the hackathon.",
     link: "https://github.com/your-sukkon-project"
   },
+  {
+    title:"contributed to 10+ open source projects",
+    period:"2025-2026",
+    summary:
+    "Contributed bug fixes, feature enhancements, and documentation improvements to several small open source projects, collaborating with maintainers to improve code quality and usability",
+    link:""
+  }
 
 
                   // {

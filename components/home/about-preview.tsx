@@ -102,7 +102,7 @@ export function AboutPreview() {
               animate={inView ? { opacity: 1, y: 0 } : {}}
               transition={{ duration: 0.5, delay: 0.15 }}
               className="lead mb-8">
-              I work across the entire stack—mobile, web, backend, AI. I&apos;ve shipped
+              I work across the entire  web, backend, AI. I&apos;ve shipped
               features used by real people, fixed bugs at 2am, and learned that
               good code is code that actually solves the problem.
             </motion.p>
